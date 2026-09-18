@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>RSVP ♡</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>You're Invited! ♡</h1>
+
+    <p>We'd love to see you there!</p>
+
+    <form id="rsvp-form">
+
+        <label for="name">Your name</label>
+        <input
+            type="text"
+            id="name"
+            required
+        >
+
+        <label for="attendance">Are you attending?</label>
+
+        <select id="attendance" required>
+            <option value="">Please select</option>
+            <option value="yes">Yes ♡</option>
+            <option value="no">No</option>
+        </select>
+
+        <button type="submit">
+            RSVP ♡
+        </button>
+
+    </form>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

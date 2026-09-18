@@ -1,0 +1,70 @@
+/* Overall page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff7fb;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 50px 20px;
+}
+
+/* Main heading */
+h1 {
+    color: #e88bb5;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+/* Intro paragraph */
+p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* RSVP form */
+form {
+    background-color: white;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Labels */
+label {
+    display: block;
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Text input and dropdown */
+input,
+select {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+/* RSVP button */
+button {
+    width: 100%;
+    margin-top: 25px;
+    padding: 12px;
+    background-color: #a8f0e9;
+    color: #333;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Button hover */
+button:hover {
+    background-color: #8de3db;
+}
